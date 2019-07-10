@@ -1,0 +1,27 @@
+{
+  "name": "jenkins-proxy",
+  "version": "1.0.0",
+  "description": "Jenkins proxy =============",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brucegroverlee/jenkins-proxy.git"
+  },
+  "keywords": [
+    "jenkins",
+    "proxy"
+  ],
+  "author": "Bruce Grover Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brucegroverlee/jenkins-proxy/issues"
+  },
+  "homepage": "https://github.com/brucegroverlee/jenkins-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-http-proxy": "^1.5.1"
+  }
+}
