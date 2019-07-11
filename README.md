@@ -18,5 +18,5 @@ webhook
 https://us-central1-sherpon-development.cloudfunctions.net/jenkins-proxy/github-webhook
 ```
 Events
-push
-commit comments
+- push
+- commit comments
