@@ -20,3 +20,13 @@ https://us-central1-sherpon-development.cloudfunctions.net/jenkins-proxy/github-
 Events
 - push
 - commit comments
+
+## Filter
+
+```http
+https://developer.github.com/webhooks/#payloads
+https://developer.github.com/v3/activity/events/types/#pushevent
+https://developer.github.com/v3/activity/events/types/#commitcommentevent
+https://developer.github.com/v3/activity/events/types/#pullrequestevent
+```
+
